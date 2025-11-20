@@ -49,7 +49,6 @@ const handleAnalyze = async ( companyName: string, jobTitle: string, jobDescript
   // 步骤 2: 将 PDF 转换为图片（用于在 UI 中显示简历预览）
   setStatusText('正在转换为图片...')
   const imageFile = await convertPdfToImage(file);
-  console.log(imageFile);
   
   if(!imageFile.file) return setStatusText('PDF转换为图片失败');
 
@@ -91,11 +90,12 @@ const handleAnalyze = async ( companyName: string, jobTitle: string, jobDescript
 
   // 将 AI 反馈（JSON 字符串）解析为对象并更新数据
   data.feedback = JSON.parse(feedbackText);
-  await kv.set(`resume${uuid}`, JSON.stringify(data))
+  await kv.set(`resume:${uuid}`, JSON.stringify(data))
 
   // 步骤 7: 完成分析，准备跳转
   setStatusText('分析完成！正在跳转...')
   console.log(data);
+  navigate(`/resume/${uuid}`);
   
 }
 const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
