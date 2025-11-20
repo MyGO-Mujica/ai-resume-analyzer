@@ -228,22 +228,20 @@ export const AIResponseFormat = `
 
 export const prepareInstructions = ({
   jobTitle,
-  jobDescription,
-  AIResponseFormat,
+  jobDescription
 }: {
   jobTitle: string;
   jobDescription: string;
-  AIResponseFormat: string;
 }) =>
-  `You are an expert in ATS (Applicant Tracking System) and resume analysis.
-  Please analyze and rate this resume and suggest how to improve it.
-  The rating can be low if the resume is bad.
-  Be thorough and detailed. Don't be afraid to point out any mistakes or areas for improvement.
-  If there is a lot to improve, don't hesitate to give low scores. This is to help the user to improve their resume.
-  If available, use the job description for the job user is applying to to give more detailed feedback.
-  If provided, take the job description into consideration.
-  The job title is: ${jobTitle}
-  The job description is: ${jobDescription}
-  Provide the feedback using the following format: ${AIResponseFormat}
-  Return the analysis as a JSON object, without any other text and without the backticks.
-  Do not include any other text or comments.`;
+  `你是一位应聘者追踪系统（ATS）和简历分析方面的专家。
+  请分析并评估这份简历，并提出改进建议。
+  如果简历质量较差，评分可以很低。
+  请进行全面而详细的分析。不要害怕指出任何错误或需要改进的地方。
+  如果有很多地方需要改进，请毫不犹豫地给出较低的分数。这是为了帮助用户改进他们的简历。
+  如果有可用的职位描述，请根据用户申请的职位提供更详细的反馈。
+  如果提供了职位描述，请将其纳入考虑范围。
+  职位名称是：${jobTitle}
+  职位描述是：${jobDescription}
+  请使用以下格式提供反馈：${AIResponseFormat}
+  将分析结果以 JSON 对象的形式返回，不要包含任何其他文本，也不要使用反引号。
+  不要包含任何其他文本或注释。`;
