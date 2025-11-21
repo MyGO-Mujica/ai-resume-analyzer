@@ -1,3 +1,12 @@
+import {type ClassValue, clsx} from "clsx";
+import {twMerge} from "tailwind-merge";
+
+export function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs))
+}
+
+
+
 /**
  * 格式化文件大小为可读的字符串
  * 
