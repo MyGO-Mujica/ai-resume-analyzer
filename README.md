@@ -1,4 +1,4 @@
-# 📄 AI Resume Analyzer
+# AI Resume Analyzer
 
 [![Deployed on Puter](https://img.shields.io/badge/Deployed%20on-Puter-4666FF?style=for-the-badge&logo=puter&logoColor=white)](https://puter.com/app/mygo-ai-resume-analyzer)
 [![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
