@@ -7,7 +7,7 @@
 
 > **智能简历分析助手**
 
-## 📖 项目介绍 (Introduction)
+## 📖 项目介绍
 
 **AI Resume Analyzer** 是一款基于前沿 Web 技术构建的现代化简历分析应用。它利用人工智能技术，深入解析求职者简历，模拟 **ATS (Applicant Tracking System)** 筛选流程，并提供多维度的优化建议。
 
@@ -15,7 +15,7 @@
 
 🔗 **在线体验**: [https://puter.com/app/mygo-ai-resume-analyzer](https://puter.com/app/mygo-ai-resume-analyzer)
 
-## ✨ 核心功能 (Key Features)
+## ✨ 核心功能 
 
 *   **🚀 智能评分系统**: 基于 AI 模型，从 **语气风格**、**内容质量**、**结构布局**、**技能匹配** 四个核心维度对简历进行打分。
 *   **🤖 ATS 模拟检测**: 模拟真实招聘系统的解析逻辑，识别简历中的潜在问题（如格式错误、关键词缺失）。
@@ -24,7 +24,7 @@
 *   **☁️ Serverless 架构**: 基于 **Puter.js** 构建，利用其云存储、身份验证和 AI 推理能力，实现无服务器架构。
 *   **🎨 极致 UI/UX**: 采用最新的 Tailwind CSS v4 打造，拥有流畅的动画、响应式布局和现代化的视觉风格。
 
-## 🛠️ 技术栈 (Tech Stack)
+## 🛠️ 技术栈 
 
 本项目采用最新的前端技术栈构建：
 
@@ -37,7 +37,7 @@
 *   **Cloud & AI Services**: [Puter.js](https://docs.puter.com/)
 *   **Build Tool**: [Vite](https://vitejs.dev/)
 
-## 💻 本地开发 (Development)
+## 💻 本地开发 
 
 如果您希望在本地运行或二次开发本项目，请遵循以下步骤：
 
