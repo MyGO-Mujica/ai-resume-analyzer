@@ -9,7 +9,7 @@
 
 ## 📖 项目介绍
 
-**AI Resume Analyzer** 是一款基于前沿 Web 技术构建的现代化简历分析应用。是[JavaScript Mastery]"https://www.youtube.com/@javascriptmastery"的一个开源项目。
+**AI Resume Analyzer** 是一款基于前沿 Web 技术构建的现代化简历分析应用。是[JavaScript Mastery](https://www.youtube.com/@javascriptmastery)的一个开源项目。
 它利用人工智能技术，深入解析求职者简历，模拟 **ATS (Applicant Tracking System)** 筛选流程，并提供多维度的优化建议。
 
 本项目旨在帮助求职者打破信息差，通过可视化的评分和具体的修改意见，提升简历在招聘系统中的通过率。
